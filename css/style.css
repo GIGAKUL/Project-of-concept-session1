@@ -156,3 +156,26 @@ h2 {
 .service-row h2{
   padding-bottom: 50px;
 }
+.foot-box{
+  text-align: left;
+}
+.foot-box img{
+ width: 200px;
+}
+.foot-row1{
+  margin: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.foot-box ul{
+  list-style: none;
+  padding-top: 10px;
+}
+.foot-box ul li {
+  padding-top: 15px;
+}
+.foot-box p{
+  padding-top: 10px;
+  line-height: 2rem;
+}

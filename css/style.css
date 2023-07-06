@@ -8,7 +8,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 nav {
-  background-color:#361111;
+  background-color: #361111;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -33,13 +33,42 @@ nav {
 }
 
 /* End of Header */
-
 .banner {
+  height: 100vh;
+}
+.banner-row {
+  display: flex;
   background-image: url(../image/images/background.png),
-    linear-gradient(45deg, #000000, #2c0909);
+    linear-gradient(45deg, #161616, #2c0909ef);
   height: 100vh;
   color: white;
+  justify-content: space-around;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  background-position: center;
+}
+.banner-col1 h1 {
+  font-size: 54px;
+}
+.banner-col1 p{
+  margin-top: 15px;
 }
 .banner-col2 img {
   width: 300px;
+}
+.btn {
+  padding: 13px 20px;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.89);
+  font-size: 13px ;
+}
+.btn:hover {
+  
+
+  cursor:url("https://cdn.custom-cursor.com/db/7647/meme-pop-cat-pointer.png"), auto;
+  box-shadow: 0px 0px 10px 0px rgb(255, 0, 0);
 }

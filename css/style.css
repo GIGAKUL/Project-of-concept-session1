@@ -80,7 +80,7 @@ nav {
 .about h2 {
   text-align: center;
   text-transform: capitalize;
-  padding-top: 30px;
+  padding-bottom: 50px;
   font-size: 54px;
   font-weight: bold;
 }
@@ -88,22 +88,31 @@ h2 {
   font-size: 54px;
   text-align: center;
 }
+.about{
+  padding: 100px 0px;
+}
+.about h2{
+  margin-bottom: 50px;
+}
 .about-row {
   padding-top: 24px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .about-left img {
-  width: 300px;
+  width: 500px;
 }
 .about-right h2 {
   text-align: left;
-  margin-bottom: 24px;
+  margin-bottom: 15px;
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 43px;
 }
-.about-righ p {
+.about-right p {
   margin-bottom: 24px;
+  font-size: 20px;
+  line-height: 2rem;
 }
 /* End Of About Section */
 .service-row {
@@ -119,6 +128,7 @@ h2 {
   margin-top: 20px;
   color: rgba(255, 255, 255, 0.89);
   font-size: 13px;
+  box-shadow: 0px 0px 16px 0px #6e0000;
   font-family: "Poppins", sans-serif;
 }
 .btn2:hover {
@@ -178,4 +188,14 @@ h2 {
 .foot-box p{
   padding-top: 10px;
   line-height: 2rem;
+}
+.foot-row2 hr{
+  width: 70%;
+  display: inline-block;
+}
+.foot-row2 {
+  text-align: center;
+}
+.foot-row2 p{
+  padding: 20px 0px;
 }

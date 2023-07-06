@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 body {
   color: #f5deb3;
@@ -43,9 +42,9 @@ nav {
 }
 .banner-row {
   display: flex;
+  height: 100vh;
   background-image: url(../image/images/background.png),
     linear-gradient(45deg, #0000007a, #2c0909ef);
-  height: 100vh;
   justify-content: space-around;
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,6 +61,7 @@ nav {
   width: 300px;
 }
 .btn {
+  font-family: "Poppins", sans-serif;
   padding: 13px 20px;
   background-color: red;
   border: none;
@@ -84,21 +84,73 @@ nav {
   font-size: 54px;
   font-weight: bold;
 }
+h2 {
+  font-size: 54px;
+  text-align: center;
+}
 .about-row {
   padding-top: 24px;
   display: flex;
   justify-content: space-around;
 }
-.about-left img{
+.about-left img {
   width: 300px;
 }
-.about-right h2{
+.about-right h2 {
   text-align: left;
   margin-bottom: 24px;
   text-transform: capitalize;
   font-size: 20px;
 }
-.about-righ p{
+.about-righ p {
   margin-bottom: 24px;
+}
+/* End Of About Section */
+.service-row {
+  background-image: url(../image/images/background.png),
+    linear-gradient(160deg, #0000007a, #2c0909ef);
+}
+
+.btn2 {
+  padding: 10px 30px;
+  background-color: #580202;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.89);
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+}
+.btn2:hover {
+  cursor: url("https://toppng.com/uploads/preview/view-cursor-on-t-shirt-cat-cursor-11563234286jqid2b8cj4.png"),
+  auto;
+  box-shadow: 0px 0px 10px 0px #9f0505cc;
+}
+.box{
+  display: flex;
+  justify-content: space-around; 
+}
+.box-inside{
+  background-color: #3800008a;
+  text-align: center;
+  padding: 50px;
+  margin: 50px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 89px 10px rgba(80, 7, 7, 0.548);
   
 }
+.box-inside:hover{
+  background-color: #b3000085;
+  padding: 50px;
+  box-shadow:0px 0px 89px 10px #b3000085;
+  margin: 40px;
+}
+.box-inside img{
+  width: 70px;
+}
+.service-row{
+
+  padding: 50px 0px;
+}
+.service-row h2{
+  padding-bottom: 50px;
